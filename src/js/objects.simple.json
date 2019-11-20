@@ -1,0 +1,5374 @@
+{
+  "10x16_pet_door": {
+    "models": [
+      {
+        "name": "10x16_Pet_Door_Cap",
+        "material": null
+      },
+      {
+        "name": "10x16_Pet_Door_Frame",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [
+      "just_wood",
+      "grass_f"
+    ],
+    "type": "PetDoor",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "14x21_aluminum_single_pane_window": {
+    "models": [
+      {
+        "name": "14x21_Aluminum_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "14x21_Aluminum_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "14x21_Aluminum_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "Shutters_for_14x21_Aluminum_single_pane_Window",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_14x21_Aluminum_single_pane_window",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_14x21_window",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_shutters_for_14x21_aluminum_single_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_14x21_aluminum_single_pane_window",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "14x21_Aluminum_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "14x21_aluminum_gable_single_pane_window": {
+    "models": [
+      {
+        "name": "14x21_Aluminum_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "14x21_Aluminum_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "14x21_Aluminum_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "14x21_Aluminum_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "windows_for_103_shed_dormer_3x29": {
+    "models": [
+      {
+        "name": "103_dormer_3x29_windows_frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "103_dormer_3x29_windows_glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "103_dormer_3x29_windows_grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "103_dormer_3x29_windows_frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "15x20_pet_door": {
+    "models": [
+      {
+        "name": "15x20_Pet_Door_Cap",
+        "material": null
+      },
+      {
+        "name": "15x20_Pet_Door_Frame",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "PetDoor",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "16_cupola": {
+    "models": [
+      {
+        "name": "16_Cupola",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "16_Cupola_Corners",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "16_Cupola_Roof",
+        "material": "roofMaterial"
+      },
+      {
+        "name": "16_Cupola_Roof_Corners",
+        "material": "roofCornerMaterial"
+      },
+      {
+        "name": "16_Cupola_Bottom_Part",
+        "material": "bottomMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "16_Cupola_Corners"
+    ],
+    "mainColorModels": [
+      "16_Cupola"
+    ],
+    "images": [],
+    "type": "Cupola"
+  },
+  "18x27_aluminum_single_pane_window": {
+    "models": [
+      {
+        "name": "18x27_Aluminum_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "18x27_Aluminum_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "18x27_Aluminum_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "Shutters_for_18x27_Aluminum_single_pane_Window",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_18x27_Aluminum_single_pane_window",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_18x27_window",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_shutters_for_18x27_aluminum_single_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_18x27_aluminum_single_pane_window",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "18x27_Aluminum_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "18x27_aluminum_gable_single_pane_window": {
+    "models": [
+      {
+        "name": "18x27_Aluminum_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "18x27_Aluminum_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "18x27_Aluminum_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "18x27_Aluminum_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "18x36_aluminum_single_pane_window": {
+    "models": [
+      {
+        "name": "18x36_Aluminum_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "18x36_Aluminum_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "18x36_Aluminum_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "Shutters_for_18x36_Aluminum_single_pane_Window",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_18x36_Aluminum_single_pane_window",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_18x36_window",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_shutters_for_18x36_aluminum_single_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_18x36_aluminum_single_pane_window",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "18x36_Aluminum_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "18x36_aluminum_gable_single_pane_window": {
+    "models": [
+      {
+        "name": "18x36_Aluminum_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "18x36_Aluminum_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "18x36_Aluminum_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "18x36_Aluminum_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "1x1_gable_window": {
+    "models": [
+      {
+        "name": "1x1_Loft_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "1x1_Loft_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "1x1_Loft_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "1x1_Loft_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "1x1_window": {
+    "models": [
+      {
+        "name": "1x1_Loft_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "1x1_Loft_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "1x1_Loft_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "1x1_Loft_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "23x10_transom_window_with_grids": {
+    "models": [
+      {
+        "name": "23x10_Transom_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "23x10_Transom_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "23x10_Transom_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "23x10_Transom_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "23x10_transom_gable_window_with_grids": {
+    "models": [
+      {
+        "name": "23x10_Transom_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "23x10_Transom_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "23x10_Transom_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "23x10_Transom_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "24_cupola": {
+    "models": [
+      {
+        "name": "24_Cupola",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "24_Cupola_Corners",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "24_Cupola_Roof",
+        "material": "roofMaterial"
+      },
+      {
+        "name": "24_Cupola_Roof_Corners",
+        "material": "roofCornerMaterial"
+      },
+      {
+        "name": "24_Cupola_Bottom_Part",
+        "material": "bottomMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "24_Cupola_Corners"
+    ],
+    "mainColorModels": [
+      "24_Cupola"
+    ],
+    "images": [],
+    "type": "Cupola"
+  },
+  "24x24_vinyl_double_pane_window_without_grids": {
+    "models": [
+      {
+        "name": "24x24_Vinyl_Double_Pane_Window(without-grids)",
+        "material": null
+      },
+      {
+        "name": "24x24_Vinyl_Double_Pane_Window(without-grids)_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "24x24_Vinyl_Double_Pane_Window(without-grids)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_24x24_Vinyl_double_pane_windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_24x24_Vinyl_double_pane_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_24x24_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_24x24_Vinyl_double_pane_windows",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "USC_flower_box_for_24x24_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "24x24_Vinyl_Double_Pane_Window(without-grids)_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "24x24_vinyl_gable_double_pane_window_without_grids": {
+    "models": [
+      {
+        "name": "24x24_Vinyl_Double_Pane_Window(without-grids)",
+        "material": null
+      },
+      {
+        "name": "24x24_Vinyl_Double_Pane_Window(without-grids)_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "24x24_Vinyl_Double_Pane_Window(without-grids)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "24x24_Vinyl_Double_Pane_Window(without-grids)_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "24x24_vinyl_double_pane_window_with_grids": {
+    "models": [
+      {
+        "name": "24x24_Vinyl_Double_Pane_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "24x24_Vinyl_Double_Pane_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "24x24_Vinyl_Double_Pane_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_24x24_Vinyl_double_pane_windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_24x24_Vinyl_double_pane_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_24x24_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_24x24_Vinyl_double_pane_windows",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_24x24_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "24x24_Vinyl_Double_Pane_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "24x27_aluminum_single_pane_window": {
+    "models": [
+      {
+        "name": "24x27_Aluminum_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "24x27_Aluminum_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "24x27_Aluminum_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "Shutters_for_24x27_Aluminum_single_pane_Window",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_24x27_Aluminum_single_pane_window",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_24x27_window",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_shutters_for_24x27_aluminum_single_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_24x27_aluminum_single_pane_window",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "24x27_Aluminum_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "24x27_aluminum_gable_single_pane_window": {
+    "models": [
+      {
+        "name": "24x27_Aluminum_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "24x27_Aluminum_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "24x27_Aluminum_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "24x27_Aluminum_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "24x36_aluminum_single_pane_window": {
+    "models": [
+      {
+        "name": "24x36_Aluminum_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "24x36_Aluminum_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_24x36_Aluminum_single_pane_Window",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_24x36_Aluminum_and_Vinyl_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_24x36_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_24x36_Vinyl_double_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_24x36_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "24x36_Aluminum_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "24x36_vinyl_double_pane_window_without_grids": {
+    "models": [
+      {
+        "name": "24x36_Vinyl_Double_Pane_Window(without-grids)",
+        "material": null
+      },
+      {
+        "name": "24x36_Vinyl_Double_Pane_Window(without-grids)_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "24x36_Vinyl_Double_Pane_Window(without-grids)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_24x36_Aluminum_single_pane_Window",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_24x36_Aluminum_and_Vinyl_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_24x36_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_24x36_Vinyl_double_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_24x36_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "24x36_Vinyl_Double_Pane_Window(without-grids)_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "24x36_vinyl_double_pane_window_with_grids": {
+    "models": [
+      {
+        "name": "24x36_Vinyl_Double_Pane_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "24x36_Vinyl_Double_Pane_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "24x36_Vinyl_Double_Pane_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_24x36_Aluminum_single_pane_Window",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_24x36_Aluminum_and_Vinyl_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_24x36_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_24x36_Vinyl_double_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_24x36_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "24x36_Vinyl_Double_Pane_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "29_transom_window": {
+    "models": [
+      {
+        "name": "29_Transom_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "29_Transom_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "29_Transom_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "29_Transom_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "29_transom_gable_window": {
+    "models": [
+      {
+        "name": "29_Transom_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "29_Transom_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "29_Transom_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "29_Transom_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "29x10_transom_window_with_grids": {
+    "models": [
+      {
+        "name": "29x10_Transom_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "29x10_Transom_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "29x10_Transom_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "29x10_Transom_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "29x10_transom_gable_window_with_grids": {
+    "models": [
+      {
+        "name": "29x10_Transom_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "29x10_Transom_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "29x10_Transom_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "29x10_Transom_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "2x3_single_pane_window": {
+    "models": [
+      {
+        "name": "2x3_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "2x3_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "2x3_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "Shutters_for_2x3_Single_pane_Window",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_2x3_Single_pane_window",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_24x36_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_24x36_Vinyl_double_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_2x3_Single_pane_window",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "2x3_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "30x40_vinyl_double_pane_window_without_grids": {
+    "models": [
+      {
+        "name": "30x40_Vinyl_Double_Pane_Window(without-grids)",
+        "material": null
+      },
+      {
+        "name": "30x40_Vinyl_Double_Pane_Window(without-grids)_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "30x40_Vinyl_Double_Pane_Window(without-grids)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_30x40_Vinyl_double_pane_windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_30x40_Vinyl_double_pane_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_30x40_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_30x40_Vinyl_double_pane_windows",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_30x40_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "30x40_Vinyl_Double_Pane_Window(without-grids)_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "30x40_vinyl_double_pane_window_with_grids": {
+    "models": [
+      {
+        "name": "30x40_Vinyl_Double_Pane_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "30x40_Vinyl_Double_Pane_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "30x40_Vinyl_Double_Pane_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_30x40_Vinyl_double_pane_windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_30x40_Vinyl_double_pane_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_30x40_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_30x40_Vinyl_double_pane_windows",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_30x40_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "30x40_Vinyl_Double_Pane_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "36x48_vinyl_double_pane_window_without_grids": {
+    "models": [
+      {
+        "name": "36x48_Vinyl_Double_Pane_Window(without-grids)",
+        "material": null
+      },
+      {
+        "name": "36x48_Vinyl_Double_Pane_Window(without-grids)_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "36x48_Vinyl_Double_Pane_Window(without-grids)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_36x48_Vinyl_double_pane_windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_36x48_Vinyl_double_pane_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_36x48_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_36x48_Vinyl_double_pane_windows",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_36x48_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "36x48_Vinyl_Double_Pane_Window(without-grids)_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "36x48_vinyl_double_pane_window_with_grids": {
+    "models": [
+      {
+        "name": "36x48_Vinyl_Double_Pane_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "36x48_Vinyl_Double_Pane_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "36x48_Vinyl_Double_Pane_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_36x48_Vinyl_double_pane_windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_36x48_Vinyl_double_pane_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_36x48_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_Shutters_for_36x48_Vinyl_double_pane_windows",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_36x48_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "36x48_Vinyl_Double_Pane_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "36x60_vinyl_double_pane_window_with_grids": {
+    "models": [
+      {
+        "name": "36x60_Vinyl_Double_Pane_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "36x60_Vinyl_Double_Pane_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "36x60_Vinyl_Double_Pane_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_36x60_Vinyl_double_pane_windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_36x60_Vinyl_double_pane_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_36x60_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_shutters_for_36x60_windows",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_36x60_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "36x60_Vinyl_Double_Pane_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "36x60_vinyl_double_pane_window_without_grids": {
+    "models": [
+      {
+        "name": "36x60_Vinyl_Double_Pane_Window",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "36x60_Vinyl_Double_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "36x60_Vinyl_Double_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Shutters_for_36x60_Vinyl_double_pane_windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Shutters_for_36x60_Vinyl_double_pane_windows",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_36x60_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_shutters_for_36x60_windows",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_36x60_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "36x60_Vinyl_Double_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "4_single_wood_door": {
+    "models": [
+      {
+        "name": "4_Single_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4_Single_Wood_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "4x4_Ramp"
+      },
+      {
+        "name": "4x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "4_Single_Wood_Door"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "36x72_single_wood_door": {
+    "models": [
+      {
+        "name": "36x72_Single_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "36x72_Single_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "36x72_Single_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "36x72_Single_Wood_Door_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "36x72_Single_Wood_Door",
+      "36x72_Single_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "3_shed_door": {
+    "models": [
+      {
+        "name": "3_Shed_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "3_Shed_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Shed_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3_Shed_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "3_Shed_Door",
+      "3_Shed_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "3_shed_door_w_transom": {
+    "models": [
+      {
+        "name": "3_Shed_Door(w-transom)",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "3_Shed_Door(w-transom)_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Shed_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "3_Shed_Door(w-transom)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "3_Shed_Door(w-transom)_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "3_Shed_Door(w-transom)_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "3_Shed_Door(w-transom)",
+      "3_Shed_Door(w-transom)_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "3_steel_entry_door_out": {
+    "models": [
+      {
+        "name": "3_Steel_Entry_Door(lh-out)",
+        "material": null
+      },
+      {
+        "name": "3_Steel_Entry_Door(lh-out)_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Inch_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door(lh-out)_Handle_and_Loops",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door(lh-out)_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door(lh-out)_Wall_Part",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "3_Steel_Entry_Door(lh-out)_Frame"
+    ],
+    "mainColorModels": [
+      "3_Steel_Entry_Door(lh-out)_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "4x6_transom_trim_shed_door_w_transom": {
+    "models": [
+      {
+        "name": "4x6_Transom_Trim_Shed_door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4x6_Transom_Trim_Shed_door_parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "4x6_Transom_Trim_Shed_door_grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "4x6_Transom_Trim_Shed_door_glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "4x6_Transom_Trim_Shed_door"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_transom_trim_shed_door_w_transom": {
+    "models": [
+      {
+        "name": "6x6_Transom_Trim_Shed_door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_Transom_Trim_Shed_door_parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x6_Transom_Trim_Shed_door_grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "6x6_Transom_Trim_Shed_door_glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_Transom_Trim_Shed_door"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "3_steel_entry_door_half_glass_with_grids_out": {
+    "models": [
+      {
+        "name": "3_Steel_Entry_Door_Half_Glass_with_Grids(lh-out)",
+        "material": null
+      },
+      {
+        "name": "3_Steel_Entry_Door_Half_Glass_with_Grids(lh-out)_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Inch_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door_Half_Glass_with_Grids(lh-out)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "3_Steel_Entry_Door_Half_Glass_with_Grids(lh-out)_Handle_and_Loops",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door_Half_Glass_with_Grids(lh-out)_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door_Half_Glass_with_Grids(lh-out)_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "3_Steel_Entry_Door_Half_Glass_with_Grids(lh-out)_Frame"
+    ],
+    "mainColorModels": [
+      "3_Steel_Entry_Door_Half_Glass_with_Grids(lh-out)_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "3_fiberglass_door": {
+    "models": [
+      {
+        "name": "3_Fiberglass_Door",
+        "material": null
+      },
+      {
+        "name": "3_Fiberglass_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Inch_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "3_Fiberglass_Door_Hinges_and_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3_Fiberglass_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "3_Fiberglass_Door_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "3_Fiberglass_Door_Frame"
+    ],
+    "mainColorModels": [
+      "3_Fiberglass_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6_double_fiberglass_door": {
+    "models": [
+      {
+        "name": "6_Double_Fiberglass_Door",
+        "material": null
+      },
+      {
+        "name": "6_Double_Fiberglass_Door_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6_Double_Fiberglass_Door_Hinges_and_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6_Double_Fiberglass_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "6_Double_Fiberglass_Door_Wall_Part",
+        "material": null
+      },
+      {
+        "name": "6x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "6x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "6_Double_Fiberglass_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "3x3_single_pane_window": {
+    "models": [
+      {
+        "name": "3x3_Single_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "3x3_Single_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "3x3_Single_Pane_Window_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "Shutters_for_3x3_Windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_3x3_Single_pane_window",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_3x3_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_shutters_for_3x3_aluminum_single_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_3x3_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "3x3_Single_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "3x3_double_pane_window": {
+    "models": [
+      {
+        "name": "3x3_Double_Pane_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "3x3_Double_Pane_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "3x3_Double_Pane_Window",
+        "material": null
+      },
+      {
+        "name": "Shutters_for_3x3_Windows",
+        "material": "shutters"
+      },
+      {
+        "name": "Flower_box_for_3x3_Double_pane_window",
+        "material": "flowerBox"
+      },
+      {
+        "name": "USC_flower_box_for_3x3_windows",
+        "material": "flowerBoxUSC"
+      },
+      {
+        "name": "Vinyl_shutters_for_3x3_aluminum_single_pane_window",
+        "material": "shuttersVinyl"
+      },
+      {
+        "name": "Vinyl_flower_box_for_3x3_windows",
+        "material": "flowerBoxVinyl"
+      }
+    ],
+    "secondaryColorModels": [
+      "3x3_Double_Pane_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "3x3_serving_window_horizontal_slide": {
+    "models": [
+      {
+        "name": "3x3_Serving_Window_Horizontal_Slide",
+        "material": null
+      },
+      {
+        "name": "3x3_Serving_Window_Horizontal_Slide_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "3x3_Serving_Window_Horizontal_Slide_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "3x3_Serving_Window_Horizontal_Slide_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "3_2x3_window": {
+    "models": [
+      {
+        "name": "3_2x3_window_frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "3_2x3_window_grids",
+        "material": null
+      },
+      {
+        "name": "3_2x3_window_glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "3_2x3_window_frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "42_single_wood_door_arch_top_trim": {
+    "models": [
+      {
+        "name": "42_Single_Wood_Door_Arch_Top_Trim",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "42_Single_Wood_Door_Arch_Top_Trim_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "42x72_Single_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "42_Single_Wood_Door(arch-top-trim)_Handle_and_Loops",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "42_Single_Wood_Door_Arch_Top_Trim",
+      "42_Single_Wood_Door_Arch_Top_Trim_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "42_single_wood_door_arch_top_trim_metal_trim": {
+    "models": [
+      {
+        "name": "42_Single_Wood_Metal_Door_(Arch_Top_Trim)",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "42x72_Single_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "42_Single_Wood_Door(arch-top-trim)_Handle_and_Loops",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "42_Single_Wood_Metal_Door_(Arch_Top_Trim)"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "42x72_single_wood_door": {
+    "models": [
+      {
+        "name": "42x72_Single_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "42x72_Single_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "42x72_Single_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "42x72_Single_Wood_Door_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "42x72_Single_Wood_Door",
+      "42x72_Single_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "4_shed_door": {
+    "models": [
+      {
+        "name": "4_Shed_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4_Shed_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "4_Shed_Door_Metal_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "4_Shed_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "4x4_Ramp"
+      },
+      {
+        "name": "4x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "4_Shed_Door",
+      "4_Shed_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "4_dutch_shed_door": {
+    "models": [
+      {
+        "name": "4_Dutch_Shed_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4_Dutch_Shed_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "4_Shed_Door_Metal_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "4_Dutch_Shed_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "4x4_Ramp"
+      },
+      {
+        "name": "4x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "4_Dutch_Shed_Door",
+      "4_Dutch_Shed_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "4_shed_door_w_transom": {
+    "models": [
+      {
+        "name": "4_Shed_Door(w-transom)",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4_Shed_Door(w-transom)_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "4_Shed_Door_Metal_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "4_Shed_Door(w-transom)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "4_Shed_Door(w-transom)_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "4_Shed_Door(w-transom)_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "4x4_Ramp"
+      },
+      {
+        "name": "4x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "4_Shed_Door(w-transom)",
+      "4_Shed_Door(w-transom)_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "5x6_double_wood_door_arch_top_trim": {
+    "models": [
+      {
+        "name": "5x6_Double_Wood_Door_Arch_Top_Trim",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "5x6_Double_Wood_Door_Arch_Top_Trim_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "5x6_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "5x6_Double_Wood_Door_(Arch_Top_Trim)_Handle_and_Loops",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "5x4_Ramp"
+      },
+      {
+        "name": "5x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "5x6_Double_Wood_Door_Arch_Top_Trim",
+      "5x6_Double_Wood_Door_Arch_Top_Trim_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "5x6_double_wood_door": {
+    "models": [
+      {
+        "name": "5x6_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "5x6_Double_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "5x6_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "5x6_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "5x4_Ramp"
+      },
+      {
+        "name": "5x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "5x6_Double_Wood_Door",
+      "5x6_Double_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "5x7_double_wood_arch_top_door": {
+    "models": [
+      {
+        "name": "5x7_Double_Wood_Arch_Top_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "5x7_Double_Wood_Arch_Top_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "5x7_Double_Wood_Arch_Top_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "5x4_Ramp"
+      },
+      {
+        "name": "5x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "5x7_Double_Wood_Arch_Top_Door",
+      "5x7_Double_Wood_Arch_Top_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "72x78_double_wood_door": {
+    "models": [
+      {
+        "name": "72x78_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "72x78_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x4_Ramp"
+      },
+      {
+        "name": "6x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "72x78_Double_Wood_Door"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "5x7_double_wood_door": {
+    "models": [
+      {
+        "name": "5x7_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "5x7_Double_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "5x7_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "5x7_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "5x4_Ramp"
+      },
+      {
+        "name": "5x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "5x7_Double_Wood_Door",
+      "5x7_Double_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "5x7_pet_door": {
+    "models": [
+      {
+        "name": "5x7_Pet_Door_Cap",
+        "material": null
+      },
+      {
+        "name": "5x7_Pet_Door_Frame",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "PetDoor",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "5x7_roll_up": {
+    "models": [
+      {
+        "name": "5x7_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "5x7_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "5x4_Ramp"
+      },
+      {
+        "name": "5x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "60_transom_window": {
+    "models": [
+      {
+        "name": "60_Transom_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "60_Transom_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "60_Transom_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "60_Transom_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "60_transom_gable_window": {
+    "models": [
+      {
+        "name": "60_Transom_Window_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "60_Transom_Window_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "60_Transom_Window_Grid",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "60_Transom_Window_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "60x10_transom_window_with_grids": {
+    "models": [
+      {
+        "name": "60x10_Transom_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "60x10_Transom_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "60x10_Transom_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "60x10_Transom_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "60x10_transom_gable_window_with_grids": {
+    "models": [
+      {
+        "name": "60x10_Transom_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "60x10_Transom_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "60x10_Transom_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "60x10_Transom_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "6x6_double_wood_door_arch_top_trim": {
+    "models": [
+      {
+        "name": "6x6_Double_Wood_Door_Arch_Top_Trim",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_Double_Wood_Door_Arch_Top_Trim_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "6x6_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "6x6_Double_Wood_Door_Arch_Top_Trim_Handle_and_Loops",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x4_Ramp"
+      },
+      {
+        "name": "6x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_Double_Wood_Door_Arch_Top_Trim",
+      "6x6_Double_Wood_Door_Arch_Top_Trim_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_double_wood_door": {
+    "models": [
+      {
+        "name": "6x6_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_Double_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "6x6_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "6x6_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x4_Ramp"
+      },
+      {
+        "name": "6x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_Double_Wood_Door",
+      "6x6_Double_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_double_wood_door_v2": {
+    "models": [
+      {
+        "name": "6x6_Double_Wood_Door_V2",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_Double_Wood_Door_V2_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x4_Ramp"
+      },
+      {
+        "name": "6x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_Double_Wood_Door_V2"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_double_wood_door_v3": {
+    "models": [
+      {
+        "name": "6x6_Double_Wood_Door_V3",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_Double_Wood_Door_V3_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x4_Ramp"
+      },
+      {
+        "name": "6x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_Double_Wood_Door_V3"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_roll_up": {
+    "models": [
+      {
+        "name": "6x6_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x6_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "6x4_Ramp"
+      },
+      {
+        "name": "6x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "6x7_double_wood_arch_top_door": {
+    "models": [
+      {
+        "name": "6x7_Double_Wood_Arch_Top_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x7_Double_Wood_Arch_Top_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "6x7_Double_Wood_Arch_Top_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x4_Ramp"
+      },
+      {
+        "name": "6x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x7_Double_Wood_Arch_Top_Door",
+      "6x7_Double_Wood_Arch_Top_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x7_double_wood_door": {
+    "models": [
+      {
+        "name": "6x7_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x7_Double_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "6x7_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "6x7_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x4_Ramp"
+      },
+      {
+        "name": "6x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x7_Double_Wood_Door",
+      "6x7_Double_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "72x10_transom_window_with_grids": {
+    "models": [
+      {
+        "name": "72x10_Transom_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "72x10_Transom_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "72x10_Transom_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "72x10_Transom_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "72x10_transom_gable_window_with_grids": {
+    "models": [
+      {
+        "name": "72x10_Transom_Window_with_Grids",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "72x10_Transom_Window_with_Grids_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "72x10_Transom_Window_with_Grids_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "72x10_Transom_Window_with_Grids_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "36_36_window_screened": {
+    "models": [
+      {
+        "name": "36_36_window_screened",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "36_36_window_screened_glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Window"
+  },
+  "7x12_pet_door": {
+    "models": [
+      {
+        "name": "7x12_Pet_Door_Cap",
+        "material": null
+      },
+      {
+        "name": "7x12_Pet_Door_Frame",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "PetDoor",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "7x6_double_wood_door": {
+    "models": [
+      {
+        "name": "7x6_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "7x6_Double_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "7x6_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "7x6_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "7x4_Ramp"
+      },
+      {
+        "name": "7x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "7x6_Double_Wood_Door",
+      "7x6_Double_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "7x7_double_wood_door": {
+    "models": [
+      {
+        "name": "7x7_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "7x7_Double_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "7x7_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "7x7_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "7x4_Ramp"
+      },
+      {
+        "name": "7x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "7x7_Double_Wood_Door",
+      "7x7_Double_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "8x6_double_wood_door": {
+    "models": [
+      {
+        "name": "8x6_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "8x6_Double_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "8x6_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "8x6_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x4_Ramp"
+      },
+      {
+        "name": "8x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "8x6_Double_Wood_Door",
+      "8x6_Double_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "8x7_double_wood_door": {
+    "models": [
+      {
+        "name": "8x7_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "8x7_Double_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "8x7_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "8x7_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x4_Ramp"
+      },
+      {
+        "name": "8x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "8x7_Double_Wood_Door",
+      "8x7_Double_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "9x6_double_wood_door": {
+    "models": [
+      {
+        "name": "9x6_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "9x6_Double_Wood_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "9x6_Double_Wood_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "9x6_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x4_Ramp"
+      },
+      {
+        "name": "9x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "9x6_Double_Wood_Door",
+      "9x6_Double_Wood_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "9x7_double_wood_door": {
+    "models": [
+      {
+        "name": "9x7_Double_Wood_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "9x7_Double_Wood_Door_Parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x4_Ramp"
+      },
+      {
+        "name": "9x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "9x7_Double_Wood_Door"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "chicken_door": {
+    "models": [
+      {
+        "name": "Chicken_Door",
+        "material": null
+      },
+      {
+        "name": "Chicken_Door_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "Chicken_Door_Threshold",
+        "material": "thresholdMaterial"
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "PetDoor",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "double_dutch_shed_door": {
+    "models": [
+      {
+        "name": "Double_Dutch_Shed_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "Double_Dutch_Shed_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "Double_Shed_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Double_Dutch_Shed_Door_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Double_Dutch_Shed_Door",
+      "Double_Dutch_Shed_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "double_shed_door": {
+    "models": [
+      {
+        "name": "Double_Shed_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "Double_Shed_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "Double_Shed_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Double_Shed_Door_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Double_Shed_Door",
+      "Double_Shed_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "double_shed_door_w_transom": {
+    "models": [
+      {
+        "name": "Double_Shed_Doors(w-transom)",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "Double_Shed_Doors(w-transom)_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "Double_Shed_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Double_Shed_Doors(w-transom)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Double_Shed_Doors(w-transom)_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "Double_Shed_Doors(w-transom)_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Double_Shed_Doors(w-transom)",
+      "Double_Shed_Doors(w-transom)_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "72x78_double_smartside_door": {
+    "models": [
+      {
+        "name": "72x78_Double_Smartside_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "72x78_Double_Smartside_Door_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "72x78_Double_Smartside_Door"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "72x78_double_shed_door_w_transom": {
+    "models": [
+      {
+        "name": "72x78_Double_Shed_Doors(w-transom)",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "72x78_Double_Shed_Doors(w-transom)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "72x78_Double_Shed_Doors(w-transom)_Grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "72x78_Double_Shed_Doors(w-transom)_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "72x78_Double_Shed_Doors(w-transom)"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6_0x6_0_double_sd_nt": {
+    "models": [
+      {
+        "name": "6_0x6_0_Double_SD_NT",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6_0x6_0_Double_SD_NT_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "6_0x6_0_Double_SD_NT"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6_0x6_8_double_sd_nt": {
+    "models": [
+      {
+        "name": "6_0x6_8_Double_SD_NT",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6_0x6_8_Double_SD_NT_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "6_0x6_8_Double_SD_NT"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "econ_door": {
+    "models": [
+      {
+        "name": "Econ_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "Econ_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "Econ_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Econ_Door_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Econ_Door",
+      "Econ_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "4x6_transom_trim_shed_door": {
+    "models": [
+      {
+        "name": "4x6_Transom_Trim_Shed_door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4x6_Transom_Trim_Shed_door_parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "4x6_Transom_Trim_Shed_door"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_transom_trim_shed_door": {
+    "models": [
+      {
+        "name": "6x6_Transom_Trim_Shed_door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_Transom_Trim_Shed_door_parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_Transom_Trim_Shed_door"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "4x6_transom_trim_door_with_short_hinges_with_windows": {
+    "models": [
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_short_hinge",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_short_hinge_frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_short_hinge_parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_short_hinge_grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_short_hinge_glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "4x6_transom_trim_shed_door_w_transom_short_hinge",
+      "4x6_transom_trim_shed_door_w_transom_short_hinge_frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "4x6_transom_trim_door_with_short_hinges": {
+    "models": [
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_short_hinge",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_short_hinge_frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_short_hinge_parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "4x6_transom_trim_shed_door_w_transom_short_hinge",
+      "4x6_transom_trim_shed_door_w_transom_short_hinge_frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "4x6_transom_trim_door_with_uprights": {
+    "models": [
+      {
+        "name": "4x6_Transom_trim_door_with_uprights",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4x6_Transom_trim_door_with_uprights_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "4x6_Transom_trim_door_with_uprights"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "4x6_transom_trim_door_with_short_hinges_with_uprights": {
+    "models": [
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge_frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "4x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge_parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "4x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge",
+      "4x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge_frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_transom_trim_door_with_uprights": {
+    "models": [
+      {
+        "name": "6x6_Transom_trim_door_with_uprights",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_Transom_trim_door_with_uprights_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_Transom_trim_door_with_uprights"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_transom_trim_door_with_short_hinges_with_uprights": {
+    "models": [
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge_frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge_parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge",
+      "6x6_transom_trim_shed_door_w_transom_w_uprights_short_hinge_frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_transom_trim_door_with_short_hinges_with_windows": {
+    "models": [
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_short_hinge",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_short_hinge_frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_short_hinge_parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_short_hinge_grid",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_short_hinge_glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_transom_trim_shed_door_w_transom_short_hinge",
+      "6x6_transom_trim_shed_door_w_transom_short_hinge_frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "6x6_transom_trim_door_with_short_hinges": {
+    "models": [
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_short_hinge",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_short_hinge_frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6x6_transom_trim_shed_door_w_transom_short_hinge_parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_transom_trim_shed_door_w_transom_short_hinge",
+      "6x6_transom_trim_shed_door_w_transom_short_hinge_frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "72x72_rmp_door": {
+    "models": [
+      {
+        "name": "Ramp_Door",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "Ramp_Door_Parts",
+        "material": "partsMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Ramp_Door"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "9x7_insulated_overhead_panel_door": {
+    "models": [
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "9x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "9x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "9x7_Insulated_Overhead_Panel_Door_Frame"
+    ],
+    "mainColorModels": [
+      "9x7_Insulated_Overhead_Panel_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "9x7_insulated_overhead_panel_door_without_handle": {
+    "models": [
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x7_Insulated_Overhead_Panel_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "9x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "9x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "9x7_Insulated_Overhead_Panel_Door_Frame"
+    ],
+    "mainColorModels": [
+      "9x7_Insulated_Overhead_Panel_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "9x7_overhead_panel_door_with_windows": {
+    "models": [
+      {
+        "name": "9x7_Overhead_Panel_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Panel_Door_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Panel_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Panel_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Panel_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Panel_Door_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "9x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "9x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "9x7_Overhead_Panel_Door_Frame"
+    ],
+    "mainColorModels": [
+      "9x7_Overhead_Panel_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "6x7_roll_up_door": {
+    "models": [
+      {
+        "name": "6x7_Roll_Up_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "6x7_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x7_Roll_Up_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "6x7_Roll_Up_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "6x7_Roll_Up_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x7_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "6x7_Roll_Up_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "6x4_Ramp"
+      },
+      {
+        "name": "6x4_Ramp_Supports"
+      }
+    ],
+    "secondaryColorModels": [
+      "6x7_Roll_Up_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "8x8_roll_up_door": {
+    "models": [
+      {
+        "name": "8x8_Roll_Up_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "8x8_Roll_Up_Door_Black",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x8_Roll_Up_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "8x8_Roll_Up_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "8x8_Roll_Up_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x8_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "8x8_Roll_Up_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "8x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "8x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "8x8_Roll_Up_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "9x7_roll_up_door": {
+    "models": [
+      {
+        "name": "9x7_Roll_Up_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "9x7_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x7_Roll_Up_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "9x7_Roll_Up_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "9x7_Roll_Up_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x7_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "9x7_Roll_Up_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "9x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "9x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "9x7_Roll_Up_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "15_light_french_doors": {
+    "models": [
+      {
+        "name": "15Light_French_Doors",
+        "material": null
+      },
+      {
+        "name": "15Light_French_Doors_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "French_Metal_Doors_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "15Light_French_Doors_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "15Light_French_Doors_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "15Light_French_Doors_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "15Light_French_Doors_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "15Light_French_Doors_Frame"
+    ],
+    "mainColorModels": [
+      "15Light_French_Doors_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "right|in",
+    "orientation_rh": "right|in"
+  },
+  "steel_9_light_walk_in_door": {
+    "models": [
+      {
+        "name": "Steel_9-light_Walk-in_Door",
+        "material": null
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Inch_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Steel_9-light_Walk-in_Door_Frame"
+    ],
+    "mainColorModels": [
+      "Steel_9-light_Walk-in_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "short_steel_9_light_walk_in_door": {
+    "models": [
+      {
+        "name": "Short_Steel_9-light_Walk-in_Door",
+        "material": null
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-in_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "Short_Steel_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-in_Door_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-in_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-in_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-in_Door_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Short_Steel_9-light_Walk-in_Door_Frame"
+    ],
+    "mainColorModels": [
+      "Short_Steel_9-light_Walk-in_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "short_steel_9_light_walk_out_door": {
+    "models": [
+      {
+        "name": "Short_Steel_9-light_Walk-out_Door",
+        "material": null
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-out_Door_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-out_Door_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-out_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-out_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "Short_Steel_9-light_Walk-out_Door_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Short_Steel_9-light_Walk-out_Door_Frame"
+    ],
+    "mainColorModels": [
+      "Short_Steel_9-light_Walk-out_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "steel_french_doors": {
+    "models": [
+      {
+        "name": "Steel_French_Doors",
+        "material": null
+      },
+      {
+        "name": "Steel_French_Doors_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "French_Metal_Doors_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Steel_French_Doors_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "Steel_French_Doors_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "Steel_French_Doors_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Steel_French_Doors_Frame"
+    ],
+    "mainColorModels": [
+      "Steel_French_Doors_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "right|in",
+    "orientation_rh": "right|in"
+  },
+  "steel_walk_in_door": {
+    "models": [
+      {
+        "name": "Steel_Walk-in_Door",
+        "material": null
+      },
+      {
+        "name": "Steel_Walk-in_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Inch_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Steel_Walk-in_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "Steel_Walk-in_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "Steel_Walk-in_Door_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Steel_Walk-in_Door_Frame"
+    ],
+    "mainColorModels": [
+      "Steel_Walk-in_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "3x6_short_steel_walk_in_door_out": {
+    "models": [
+      {
+        "name": "3x6_Short_Steel_Walk-in_Door",
+        "material": null
+      },
+      {
+        "name": "3x6_Short_Steel_Walk-in_Door_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "3x6_Short_Steel_Walk-in_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3x6_Short_Steel_Walk-in_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "3x6_Short_Steel_Walk-in_Door_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "3x6_Short_Steel_Walk-in_Door_Frame"
+    ],
+    "mainColorModels": [
+      "3x6_Short_Steel_Walk-in_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "right|out",
+    "orientation_rh": "left|out"
+  },
+  "short_steel_walk_in_door": {
+    "models": [
+      {
+        "name": "Short_Steel_Walk-in_Door",
+        "material": null
+      },
+      {
+        "name": "Short_Steel_Walk-in_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "Short_Steel_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Short_Steel_Walk-in_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "Short_Steel_Walk-in_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "Short_Steel_Walk-in_Door_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Short_Steel_Walk-in_Door_Frame"
+    ],
+    "mainColorModels": [
+      "Short_Steel_Walk-in_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "3_steel_entry_door_with_half_glass": {
+    "models": [
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass",
+        "material": null
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Inch_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "3_Steel_Entry_Door_with_Half_Glass_Frame"
+    ],
+    "mainColorModels": [
+      "3_Steel_Entry_Door_with_Half_Glass_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "3_steel_entry_door_with_half_glass_out": {
+    "models": [
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass(lh-out)",
+        "material": null
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass(lh-out)_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Inch_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass(lh-out)_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass(lh-out)_Handle_and_Loops",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass(lh-out)_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door_with_Half_Glass(lh-out)_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "3_Steel_Entry_Door_with_Half_Glass(lh-out)_Frame"
+    ],
+    "mainColorModels": [
+      "3_Steel_Entry_Door_with_Half_Glass(lh-out)_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "3_steel_entry_door": {
+    "models": [
+      {
+        "name": "Steel_Walk-in_Door",
+        "material": null
+      },
+      {
+        "name": "3_Steel_Entry_Door(lh-out)_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Inch_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door(lh-out)_Handle_and_Loops",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door(lh-out)_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "3_Steel_Entry_Door(lh-out)_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "3_Steel_Entry_Door(lh-out)_Frame"
+    ],
+    "mainColorModels": [
+      "3_Steel_Entry_Door(lh-out)_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "3_steel_entry_door_with_grid_half_glass": {
+    "models": [
+      {
+        "name": "Steel_9-light_Walk-in_Door",
+        "material": null
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3_Inch_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "Steel_9-light_Walk-in_Door_Wall_Part",
+        "material": "mainMaterial"
+      }
+    ],
+    "secondaryColorModels": [
+      "Steel_9-light_Walk-in_Door_Frame"
+    ],
+    "mainColorModels": [
+      "Steel_9-light_Walk-in_Door_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "6_steel_entry_double_door_half_glass": {
+    "models": [
+      {
+        "name": "6_Steel_Entry_Double_Door_Half_Glass",
+        "material": null
+      },
+      {
+        "name": "6_Steel_Entry_Double_Door_Half_Glass_Frame",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "6_Steel_Entry_Double_Door_Half_Glass_Glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "6_Steel_Entry_Double_Door_Half_Glass_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6_Steel_Entry_Double_Door_Half_Glass_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "6_Steel_Entry_Double_Door_Half_Glass_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "6x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "6x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "6_Steel_Entry_Double_Door_Half_Glass_Frame"
+    ],
+    "mainColorModels": [
+      "6_Steel_Entry_Double_Door_Half_Glass_Wall_Part"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "5x7_roll_up_door": {
+    "models": [
+      {
+        "name": "5x7_Roll_Up_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "5x7_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "5x7_Roll_Up_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "5x7_Roll_Up_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "5x7_Roll_Up_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "5x7_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "5x7_Roll_Up_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "5x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "5x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "5x7_Roll_Up_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "6x6_roll_up_door": {
+    "models": [
+      {
+        "name": "6x6_Roll_Up_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "6x6_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x6_Roll_Up_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "6x6_Roll_Up_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "6x6_Roll_Up_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "6x6_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "6x6_Roll_Up_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "6x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "6x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "6x6_Roll_Up_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "7x7_roll_up_door": {
+    "models": [
+      {
+        "name": "7x7_Roll_Up_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "7x7_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "7x7_Roll_Up_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "7x7_Roll_Up_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "7x7_Roll_Up_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "7x7_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "7x7_Roll_Up_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "7x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "7x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "7x7_Roll_Up_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "8x7_overhead_garage_door": {
+    "models": [
+      {
+        "name": "8x7_Overhead_Garage_Door",
+        "material": null
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "8x7_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Wall_Part",
+        "material": null
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "8x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "8x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "8x7_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "8x7_Overhead_Garage_Door_Wall_Part",
+      "8x7_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "8x7_roll_up_door": {
+    "models": [
+      {
+        "name": "8x7_Roll_Up_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "8x7_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x7_Roll_Up_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "8x7_Roll_Up_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "8x7_Roll_Up_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x7_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "8x7_Roll_Up_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "8x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "8x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "8x7_Roll_Up_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "8x8_overhead_garage_door": {
+    "models": [
+      {
+        "name": "8x8_Overhead_Garage_Door",
+        "material": null
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "8x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "8x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "8x8_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "8x8_Overhead_Garage_Door_Wall_Part",
+      "8x8_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "9x7_overhead_garage_door": {
+    "models": [
+      {
+        "name": "9x7_Overhead_Garage_Door",
+        "material": null
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "9x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "9x7_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "9x7_Overhead_Garage_Door_Wall_Part",
+      "9x7_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "9x8_overhead_garage_door": {
+    "models": [
+      {
+        "name": "9x8_Overhead_Garage_Door",
+        "material": null
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "9x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "9x8_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "9x8_Overhead_Garage_Door_Wall_Part",
+      "9x8_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "9x8_roll_up_door": {
+    "models": [
+      {
+        "name": "9x8_Roll_Up_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "9x8_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x8_Roll_Up_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "9x8_Roll_Up_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "9x8_Roll_Up_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x8_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "9x8_Roll_Up_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "9x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "9x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "9x8_Roll_Up_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "10x7_overhead_garage_door": {
+    "models": [
+      {
+        "name": "10x7_Overhead_Garage_Door",
+        "material": null
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "10x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "10x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "10x7_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "10x7_Overhead_Garage_Door_Wall_Part",
+      "10x7_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "10x8_overhead_garage_door": {
+    "models": [
+      {
+        "name": "10x8_Overhead_Garage_Door",
+        "material": null
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "10x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "10x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "10x8_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "10x8_Overhead_Garage_Door_Wall_Part",
+      "10x8_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "10x8_roll_up_door": {
+    "models": [
+      {
+        "name": "10x8_Roll_Up_Door",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "10x8_Roll_Up_Door_Black_Part",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "10x8_Roll_Up_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "10x8_Roll_Up_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "10x8_Roll_Up_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "10x8_Roll_Up_Door_Metal_Part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "10x8_Roll_Up_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "10x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "10x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "10x8_Roll_Up_Door_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "8x7_overhead_garage_door_with_windows": {
+    "models": [
+      {
+        "name": "8x7_Overhead_Garage_Door_With_Windows",
+        "material": null
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Windows",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "8x7_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "8x7_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "8x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "8x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "8x7_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "8x7_Overhead_Garage_Door_Wall_Part",
+      "8x7_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "8x8_overhead_garage_door_with_windows": {
+    "models": [
+      {
+        "name": "8x8_Overhead_Garage_Door_With_Windows",
+        "material": null
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Windows",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "8x8_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "8x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "8x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "8x8_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "8x8_Overhead_Garage_Door_Wall_Part",
+      "8x8_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "9x7_overhead_garage_door_with_windows": {
+    "models": [
+      {
+        "name": "9x7_Overhead_Garage_Door_With_Windows",
+        "material": null
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Windows",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x7_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "9x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "9x7_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "9x7_Overhead_Garage_Door_Wall_Part",
+      "9x7_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "9x8_overhead_garage_door_with_windows": {
+    "models": [
+      {
+        "name": "9x8_Overhead_Garage_Door_With_Windows",
+        "material": null
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Windows",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x8_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "9x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "9x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "9x8_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "9x8_Overhead_Garage_Door_Wall_Part",
+      "9x8_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "10x7_overhead_garage_door_with_windows": {
+    "models": [
+      {
+        "name": "10x7_Overhead_Garage_Door_With_Windows",
+        "material": null
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Windows",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "10x7_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "10x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "10x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "10x7_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "10x7_Overhead_Garage_Door_Wall_Part",
+      "10x7_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "10x8_overhead_garage_door_with_windows": {
+    "models": [
+      {
+        "name": "10x8_Overhead_Garage_Door_With_Windows",
+        "material": null
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Windows",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Metal_Door_Frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Handle",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Threshold",
+        "material": "thresholdMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Wall_Part",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "10x8_Overhead_Garage_Door_Wall_Part_Corner",
+        "material": "mainMaterial"
+      },
+      {
+        "name": "10x4_Ramp",
+        "material": null
+      },
+      {
+        "name": "10x4_Ramp_Supports",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "10x8_Overhead_Garage_Door_Frame"
+    ],
+    "mainColorModels": [
+      "10x8_Overhead_Garage_Door_Wall_Part",
+      "10x8_Overhead_Garage_Door_Wall_Part_Corner"
+    ],
+    "images": [],
+    "type": "DeepDoor",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "3x6_door_with_18x27_window": {
+    "models": [
+      {
+        "name": "3x6_door_with_18x27_window",
+        "material": "secondaryMaterial"
+      },
+      {
+        "name": "3x6_door_with_18x27_window_glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      },
+      {
+        "name": "3x6_door_with_18x27_window_metal_frame",
+        "material": "metalFrameMaterial"
+      },
+      {
+        "name": "3x6_door_with_18x27_window_frame",
+        "material": "frameMaterial"
+      },
+      {
+        "name": "3x6_door_with_18x27_window_parts",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3x6_door_with_18x27_window_grid",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "3x6_door_with_18x27_window",
+      "3x6_door_with_18x27_window_frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|out",
+    "orientation_rh": "right|out"
+  },
+  "3_0_6_8_9_light_steel_door": {
+    "models": [
+      {
+        "name": "3_0_6_8_9_light_steel_door",
+        "material": null
+      },
+      {
+        "name": "3_0_6_8_9_light_steel_door_frame_part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "3_0_6_8_9_light_steel_door_metal_frame",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3_0_6_8_9_light_steel_door_handle",
+        "material": "reflectiveMetalMaterial"
+      },
+      {
+        "name": "3_0_6_8_9_light_steel_door_glass",
+        "material": "glassMaterial",
+        "envFromCamera": true
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "3_0_6_8_steel_door": {
+    "models": [
+      {
+        "name": "3_0_6_8_steel_door",
+        "material": null
+      },
+      {
+        "name": "3_0_6_8_steel_door_frame_part",
+        "material": "metalMaterial"
+      },
+      {
+        "name": "3_0_6_8_steel_door_metal_frame",
+        "material": "partsMaterial"
+      },
+      {
+        "name": "3_0_6_8_steel_door_handle",
+        "material": "reflectiveMetalMaterial"
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Door",
+    "orientation_lh": "left|in",
+    "orientation_rh": "right|in"
+  },
+  "solar_vent": {
+    "models": [
+      {
+        "name": "VentHandle.stl"
+      },
+      {
+        "name": "VentBase.obj"
+      },
+      {
+        "name": "VentBorder.stl"
+      },
+      {
+        "name": "VentMetal.stl"
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Vent"
+  },
+  "vent_standard": {
+    "models": [
+      {
+        "name": "vent_standard",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Vent"
+  },
+  "8x10_archtop_vent": {
+    "models": [
+      {
+        "name": "8x10_Archtop_Vent",
+        "material": null
+      },
+      {
+        "name": "8x10_Archtop_Vent_Parts",
+        "material": null
+      },
+      {
+        "name": "8x10_Archtop_Vent_Frame",
+        "material": null
+      }
+    ],
+    "secondaryColorModels": [
+      "8x10_Archtop_Vent",
+      "8x10_Archtop_Vent_Parts",
+      "8x10_Archtop_Vent_Frame"
+    ],
+    "mainColorModels": [],
+    "images": [],
+    "type": "Vent"
+  },
+  "Heritage Rustic Black": {
+    "models": [],
+    "images": [
+      "RusticBlack",
+      "RusticBlack_b"
+    ],
+    "type": "Asset"
+  },
+  "Heritage Black Walnut": {
+    "models": [],
+    "images": [
+      "MountainSlate",
+      "MountainSlate_b"
+    ],
+    "type": "Asset"
+  },
+  "Heritage Rustic Cedar": {
+    "models": [],
+    "images": [
+      "RusticBlack",
+      "RusticBlack_b"
+    ],
+    "type": "Asset"
+  },
+  "Heritage Mountain Slate": {
+    "models": [],
+    "images": [
+      "RusticCedar",
+      "RusticCedar_b"
+    ],
+    "type": "Asset"
+  },
+  "Premier Antique Black": {
+    "models": [],
+    "images": [
+      "AntiqueBlack"
+    ],
+    "type": "Asset"
+  },
+  "Premier BlackWalnut": {
+    "models": [],
+    "images": [
+      "BlackWalnut"
+    ],
+    "type": "Asset"
+  },
+  "Premier Driftwood": {
+    "models": [],
+    "images": [
+      "Driftwood"
+    ],
+    "type": "Asset"
+  },
+  "Premier Harvest Brown": {
+    "models": [],
+    "images": [
+      "HarvestBrown"
+    ],
+    "type": "Asset"
+  },
+  "Premier Oakwood": {
+    "models": [],
+    "images": [
+      "Oakwood"
+    ],
+    "type": "Asset"
+  },
+  "Premier Pewter Gray": {
+    "models": [],
+    "images": [
+      "PewterGray"
+    ],
+    "type": "Asset"
+  },
+  "Premier Prairie Wood": {
+    "models": [],
+    "images": [
+      "PrairieWood"
+    ],
+    "type": "Asset"
+  },
+  "Premier Sherwood Green": {
+    "models": [],
+    "images": [
+      "SherwoodGreen"
+    ],
+    "type": "Asset"
+  },
+  "Premier Weathered White": {
+    "models": [],
+    "images": [
+      "WeatheredWhite"
+    ],
+    "type": "Asset"
+  },
+  "Premier Weathered Wood": {
+    "models": [],
+    "images": [
+      "WeatheredWood"
+    ],
+    "type": "Asset"
+  },
+  "All roofs": {
+    "models": [],
+    "images": [
+      "wood_white",
+      "shingles_b",
+      "poly",
+      "poly_b",
+      "poly_n",
+      "poly_a",
+      "roofs/metal_roof",
+      "roofs/metal_roof_n",
+      "roofs/metal_roof_d"
+    ],
+    "type": "Asset"
+  },
+  "Vintage White": {
+    "models": [],
+    "images": [
+      "roofs/metal_roof",
+      "roofs/metal_roof_n",
+      "roofs/metal_roof_d"
+    ],
+    "type": "Asset"
+  },
+  "Rustic Red": {
+    "models": [],
+    "images": [
+      "roofs/metal_roof",
+      "roofs/metal_roof_n",
+      "roofs/metal_roof_d"
+    ],
+    "type": "Asset"
+  },
+  "Gray": {
+    "models": [],
+    "images": [
+      "roofs/metal_roof",
+      "roofs/metal_roof_n",
+      "roofs/metal_roof_d"
+    ],
+    "type": "Asset"
+  },
+  "Evergreen": {
+    "models": [],
+    "images": [
+      "roofs/metal_roof",
+      "roofs/metal_roof_n",
+      "roofs/metal_roof_d"
+    ],
+    "type": "Asset"
+  },
+  "Desert Sand": {
+    "models": [],
+    "images": [
+      "roofs/metal_roof",
+      "roofs/metal_roof_n",
+      "roofs/metal_roof_d"
+    ],
+    "type": "Asset"
+  },
+  "Coal Black": {
+    "models": [],
+    "images": [
+      "roofs/metal_roof",
+      "roofs/metal_roof_n",
+      "roofs/metal_roof_d"
+    ],
+    "type": "Asset"
+  },
+  "Galvalume": {
+    "models": [],
+    "images": [
+      "roofs/metal_roof",
+      "roofs/metal_roof_n",
+      "roofs/metal_roof_d",
+      "roofs/galvalume"
+    ],
+    "type": "Asset"
+  },
+  "lp_smartside_siding": {
+    "models": [],
+    "trims": [
+      "metal_trim",
+      "default_trim"
+    ],
+    "images": [
+      "tiles",
+      "tiles_b"
+    ],
+    "diffuse": "tiles",
+    "normal": "tiles_b",
+    "mapWidth": 4,
+    "type": "Siding"
+  },
+  "metal_exterior_siding": {
+    "models": [],
+    "trims": [
+      "metal_trim",
+      "default_trim"
+    ],
+    "images": [
+      "metal_exterior_sliding",
+      "metal_exterior_sliding_normal"
+    ],
+    "diffuse": "metal_exterior_sliding",
+    "normal": "metal_exterior_sliding_normal",
+    "mapWidth": 3,
+    "metal": true,
+    "type": "Siding"
+  },
+  "horizontal_metal_siding": {
+    "models": [],
+    "trims": [
+      "metal_trim",
+      "default_trim"
+    ],
+    "images": [
+      "horizontal_metal_siding",
+      "horizontal_metal_siding_normal"
+    ],
+    "diffuse": "horizontal_metal_siding",
+    "normal": "horizontal_metal_siding_normal",
+    "mapWidth": 3,
+    "metal": true,
+    "type": "Siding"
+  },
+  "t1_11_siding": {
+    "models": [],
+    "trims": [
+      "metal_trim",
+      "default_trim"
+    ],
+    "images": [
+      "t1_11_siding",
+      "t1_11_siding_normal"
+    ],
+    "diffuse": "t1_11_siding",
+    "normal": "t1_11_siding_normal",
+    "mapWidth": 4,
+    "type": "Siding"
+  },
+  "vinyl_siding": {
+    "models": [],
+    "images": [
+      "vinyl_siding",
+      "vinyl_siding_normal"
+    ],
+    "diffuse": "vinyl_siding",
+    "normal": "vinyl_siding_normal",
+    "mapWidth": 6.4,
+    "isVertical": true,
+    "type": "Siding"
+  },
+  "metal_trim": {
+    "models": [],
+    "images": [
+      "white",
+      "white"
+    ],
+    "diffuse": "white",
+    "normal": "white",
+    "mapWidth": 4,
+    "isMetal": true,
+    "type": "Trim",
+    "boxShouldUpdate": 0
+  },
+  "default_trim": {
+    "models": [],
+    "images": [
+      "wood_white",
+      "wood_b"
+    ],
+    "diffuse": "wood_white",
+    "normal": "wood_b",
+    "mapWidth": 4,
+    "type": "Trim"
+  },
+  "2d_atv": {
+    "models": [],
+    "images": [
+      "atv_t",
+      "atv_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_bed": {
+    "models": [],
+    "images": [
+      "bed_t",
+      "bed_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_bike": {
+    "models": [],
+    "images": [
+      "bike_t",
+      "bike_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_computer_table": {
+    "models": [],
+    "images": [
+      "computer_table_t",
+      "computer_table_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_croquet": {
+    "models": [],
+    "images": [
+      "croquet_t",
+      "croquet_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_kf_04": {
+    "models": [],
+    "images": [
+      "kf_04_t",
+      "kf_04_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_lawn_mower": {
+    "models": [],
+    "images": [
+      "lawn_mower_t",
+      "lawn_mower_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_lazyboy": {
+    "models": [],
+    "images": [
+      "lazyboy_t",
+      "lazyboy_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_office_desk": {
+    "models": [],
+    "images": [
+      "office_desk_t",
+      "office_desk_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_ping_pong": {
+    "models": [],
+    "images": [
+      "ping_pong_t",
+      "ping_pong_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_sofa1": {
+    "models": [],
+    "images": [
+      "sofa1_t",
+      "sofa1_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_sofa2": {
+    "models": [],
+    "images": [
+      "sofa2_t",
+      "sofa2_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_toolbox": {
+    "models": [],
+    "images": [
+      "toolbox_t",
+      "toolbox_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_tv": {
+    "models": [],
+    "images": [
+      "tv_t",
+      "tv_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_wagon": {
+    "models": [],
+    "images": [
+      "wagon_t",
+      "wagon_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_wheel_barrow": {
+    "models": [],
+    "images": [
+      "wheel_barrow_t",
+      "wheel_barrow_o"
+    ],
+    "type": "Asset"
+  },
+  "2d_work_bench": {
+    "models": [],
+    "images": [
+      "work_bench_t",
+      "work_bench_o"
+    ],
+    "type": "Asset"
+  }
+}

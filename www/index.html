@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shed 3D viewer test page</title>
+    <script>var test = true;</script>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.1/js/bootstrap-colorpicker.min.js"></script>
+    <script data-cfasync="false" src="js/viewer3D.js"></script>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.1/css/bootstrap-colorpicker.min.css"/>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css"/>
+    <link rel="stylesheet" data-cfasync="false"
+          href="css/viewer3D.css"/>
+    <style>
+        body {
+            background-color: #ccc;
+            padding: 0;
+            margin: 0;
+        }
+
+        .controls {
+            display: block;
+            max-height: 150px;
+            min-height: 150px;
+            overflow: auto;
+            background-color: #fff;
+            position: relative;
+        }
+
+        .item, .item2d, .list-element {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            vertical-align: bottom;
+            padding: 10px;
+            margin-bottom: 15px;
+            text-align: center;
+            white-space: normal;
+            line-height: 11px;
+            font-size: 11px;
+        }
+
+        .list-element div,
+        .item div,
+        .item2d div {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+
+        .item[draggable="false"] {
+            color: red;
+        }
+
+        .roof-item img, .siding-item img, .list-element img {
+            width: 75px;
+            height: 75px;
+        }
+
+        div.roof-item, div.siding-item, div.list-element {
+            width: 75px;
+            min-height: 75px;
+            display: inline-block;
+            cursor: pointer;
+            vertical-align: top;
+            white-space: normal;
+            font-size: 12px;
+            line-height: 11px;
+        }
+
+        .roof-item.metal {
+            padding-top: 75px;
+            text-align: center;
+        }
+
+        .views div {
+            margin: 10px;
+        }
+
+        .roof-item.metal div {
+            background-color: #fff;
+        }
+
+        .tabs {
+            display: table;
+        }
+
+        .tab i {
+            margin-right: 2px;
+            margin-left: 2px;
+        }
+
+        .tab {
+            display: table-cell;
+            padding: 2px;
+            border-right: 1px solid #777;
+            min-width: 75px;
+            background-color: #dedede;
+            border-radius: 5px 5px 0 0;
+            cursor: pointer;
+        }
+
+        .tab.active {
+            background-color: #fff;
+        }
+
+        .tab:last-of-type {
+            border: none;
+        }
+
+        .views {
+            display: table-cell;
+            text-align: left;
+        }
+
+        .buttons {
+            display: table-cell;
+            text-align: right;
+        }
+
+        .section {
+            white-space: nowrap;
+        }
+
+        .section.style-section {
+            display: table-cell;
+            vertical-align: middle;
+            padding-top: 50px;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .section.globals div, .section.colors div {
+            display: inline-block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div style="display: table;width: 100%;">
+    <div class="views">
+        <button class="view-button" data-type="front">Front</button>
+        <button class="view-button" data-type="left">Left</button>
+        <button class="view-button" data-type="back">Back</button>
+        <button class="view-button" data-type="right">Right</button>
+        <button class="view-button" data-type="top">Top</button>
+    </div>
+    <div class="buttons">
+        <button class="destroy">Destroy</button>
+        <button class="dimensions">Show Dimensions</button>
+        <div style="display:inline-block;">
+            <input class="zoom-slider" type="text" data-slider-min="0.33" data-slider-max="3.33" data-slider-step="0.01"
+                   data-slider-value="1"/>
+            <span class="zoom-value">1.00</span>
+        </div>
+        <button class="snapshot">Snapshot</button>
+        <button class="save">Save</button>
+        <button class="load">Load</button>
+        <button class="full-screen">Full Screen</button>
+        <button class="get-views">Get Views</button>
+    </div>
+</div>
+<div class="viewer-3d"></div>
+<div class="tabs">
+    <div class="tab tab-loft"><i class="fa fa-minus"></i>Loft</div>
+    <div class="tab tab-items-2D"><i class="fa fa-square"></i>2D</div>
+    <div class="tab tab-style-section active"><i class="fa fa-arrows-h"></i>Style/Size</div>
+    <div class="tab tab-globals"><i class="fa fa-check-square-o"></i>Globals</div>
+    <div class="tab tab-colors"><i class="fa fa-th"></i>Colors</div>
+    <div class="tab tab-building-trim"><i class="fa fa-th"></i>Building trim</div>
+    <div class="tab tab-door-trim"><i class="fa fa-th"></i>Door trim</div>
+    <div class="tab tab-doors-lh"><i class="fa fa-sign-in"></i>Doors LH</div>
+    <div class="tab tab-doors-rh"><i class="fa fa-sign-out"></i>Doors RH</div>
+    <div class="tab tab-doors-options"><i class="fa fa-list-alt"></i>Doors Options</div>
+    <div class="tab tab-windows"><i class="fa fa-th-large"></i>Windows</div>
+    <div class="tab tab-pet-doors"><i class="fa fa-paw"></i>Pet Doors</div>
+    <div class="tab tab-roof-items"><i class="fa fa-caret-square-o-up"></i>Roof Items</div>
+    <div class="tab tab-gable-items"><i class="fa fa-caret-square-o-up"></i>Gable Items</div>
+    <div class="tab tab-decks"><i class="fa fa-i-cursor"></i>Decks</div>
+    <div class="tab tab-sidings"><i class="fa fa-caret-up"></i>Sidings</div>
+    <div class="tab tab-roofs"><i class="fa fa-caret-up"></i>Roofs</div>
+    <div class="tab tab-metal-roofs"><i class="fa fa-caret-up"></i>Metal Roofs</div>
+</div>
+<div class="controls">
+    <div class="section loft hidden"></div>
+    <div class="section items-2D hidden"></div>
+    <div class="section style-section">
+        <input class="width" placeholder="width" value="12">
+        <input class="depth" placeholder="depth" value="20">
+        <input class="height" placeholder="wall height" value="8">
+        <select class="style">
+            <option value="Green House">Green House</option>
+            <option value="Urban Barn">Urban Barn</option>
+            <option value="Urban Shack">Urban Shack</option>
+            <option value="Urban Lean-to">Urban Lean-to</option>
+            <option value="Urban Mini Barn">Urban Mini Barn</option>
+            <option value="Urban Studio">Urban Studio</option>
+            <option value="BYS Shed">BYS Shed</option>
+            <option value="BYS Barn">BYS Barn</option>
+            <option value="Backyard Lean-to">Backyard Lean-to</option>
+            <option value="Urban HOA">Urban HOA</option>
+            <option value="Econ Shed">Econ Shed</option>
+            <option value="Econ Barn">Econ Barn</option>
+            <option value="A Frame">A Frame</option>
+            <option value="ER Barn">ER Barn</option>
+            <option value="ER A Frame">ER A Frame</option>
+            <option value="ER Econ">ER Econ</option>
+            <option value="HPB Gable Roof">HPB Gable Roof</option>
+            <option value="HPB SP A-Frame">HPB SP A-Frame</option>
+            <option value="HPB Barn Roof">HPB Barn Roof</option>
+            <option value="Double Wide">Double Wide</option>
+            <option value="Eco">Eco</option>
+            <option value="Castle Mountain">Castle Mountain</option>
+            <option value="Deluxe Shed">Deluxe Shed</option>
+            <option value="Quaker">Quaker</option>
+            <option value="Mini Barn">Mini Barn</option>
+            <option value="Hi Barn">Hi Barn</option>
+            <option value="Single Slope">Single Slope</option>
+            <option value="ypb_lofted_barn">YPB Lofted Barn</option>
+            <option value="ypb_utility">YPB Utility</option>
+            <option value="ypb_barn">YPB Barn</option>
+            <option value="Metal_A Frame_BB">Metal A-Frame BB</option>
+            <option value="Wood_A Frame_BB">Wooden A-frame BB</option>
+            <option value="Barn_BB">Barn BB</option>
+            <option value="Vertical_Metal_A Frame_BB">Vertical Metal A-Frame BB</option>
+        </select>
+        <button class="set">Set</button>
+    </div>
+    <div class="section globals hidden">
+        <div><input type="checkbox" checked class="show-door"> Show door</div>
+        <div><input type="checkbox" checked class="show-windows"> Show windows</div>
+        <div><input type="checkbox" class="show-environemnt">Show environment</div>
+        <div><input type="checkbox" class="open-context">Open context menu on drop</div>
+        <div><input type="checkbox" class="disable-context">Disable context menu</div>
+        <div><input type="checkbox" class="center-items">Put items on center</div>
+        <br>
+        <input class="grass-scale" placeholder="Grass scale, default is 1">
+        <button class="grass-scale-set">Set</button>
+        <br>
+        <input class="grass-count" size="35" placeholder="Grass amount, default is 200000">
+        <button class="grass-count-set">Set</button>
+    </div>
+    <div class="section colors hidden">
+        <div class="input-group colorpicker-component main-color" style="width: 150px;">
+            <label>Main color</label>
+            <input type="text" value="#00AABB" class="form-control"/>
+            <span class="input-group-addon"><i></i></span>
+        </div>
+        <div class="input-group colorpicker-component secondary-color" style="width: 150px;">
+            <label>Secondary color</label>
+            <input type="text" value="#6b6b6b" class="form-control"/>
+            <span class="input-group-addon"><i></i></span>
+        </div>
+        <div class="input-group colorpicker-component shutters-color" style="width: 150px;">
+            <label>Shutters color</label>
+            <input type="text" value="#00AABB" class="form-control"/>
+            <span class="input-group-addon"><i></i></span>
+        </div>
+        <div class="input-group colorpicker-component flowerbox-color" style="width: 150px;">
+            <label>Flower box color</label>
+            <input type="text" value="#6b6b6b" class="form-control"/>
+            <span class="input-group-addon"><i></i></span>
+        </div>
+    </div>
+    <div class="section building-trim hidden">
+        <div data-id="default_trim" data-info="just a building trim" class="trim-item list-element" draggable="true">
+            <img src="img/wood_white.jpg">
+            <span>Default trim</span>
+        </div>
+        <div data-id="metal_trim" data-info="just a building trim" class="trim-item list-element" draggable="true">
+            <img src="img/metal.jpg">
+            <span>Metal trim</span>
+        </div>
+    </div>
+    <div class="section door-trim hidden">
+        <div data-id="default_trim" data-info="just a building trim" class="door-trim-item list-element"
+             draggable="true">
+            <img src="img/wood_white.jpg">
+            <span>Default trim</span>
+        </div>
+        <div data-id="metal_trim" data-info="just a building trim" class="door-trim-item list-element" draggable="true">
+            <img src="img/metal.jpg">
+            <span>Metal trim</span>
+        </div>
+    </div>
+    <div class="section doors-lh hidden"></div>
+    <div class="section doors-rh hidden"></div>
+    <div class="section doors-options hidden"></div>
+    <div class="section windows hidden"></div>
+    <div class="section pet-doors hidden"></div>
+    <div class="section roof-items hidden"></div>
+    <div class="section gable-items hidden"></div>
+    <div class="section decks hidden"></div>
+    <div class="section sidings hidden">
+        <div class="siding-item" data-type="lp_smartside_siding">
+            <img src="img/tiles.jpg">
+            LP Smartside siding
+        </div>
+        <div class="siding-item" data-type="metal_exterior_siding">
+            <img src="img/sidings/Metal_Exterior_Siding_Bump_Map.jpg">
+            Metal siding
+        </div>
+        <div class="siding-item" data-type="horizontal_metal_siding">
+            <img src="img/sidings/horizontal_metal_siding.jpg">
+            Horizontal Metal siding
+        </div>
+        <div class="siding-item" data-type="t1_11_siding">
+            <img src="img/sidings/Painted_LP_Smartside_Exterior_Siding.jpg">
+            T1-11 siding
+        </div>
+        <div class="siding-item" data-type="vinyl_siding">
+            <img src="img/sidings/Vinyl_Siding.jpg">
+            Vinyl siding
+        </div>
+    </div>
+    <div class="section roofs hidden">
+        <div class="roof-item" data-type="Heritage Rustic Black">
+            <img src="img/roofs/RusticBlack.jpg">
+            Heritage Rustic Black
+        </div>
+        <div class="roof-item" data-type="Heritage Black Walnut">
+            <img src="img/roofs/BlackWalnut.jpg">
+            Heritage Black Walnut
+        </div>
+        <div class="roof-item" data-type="Heritage Rustic Cedar">
+            <img src="img/roofs/RusticCedar.jpg">
+            Heritage Rustic Cedar
+        </div>
+        <div class="roof-item" data-type="Heritage Mountain Slate">
+            <img src="img/roofs/MountainSlate.jpg">
+            Heritage Mountain Slate
+        </div>
+        <div class="roof-item" data-type="Premier Antique Black">
+            <img src="img/roofs/AntiqueBlack.jpg">
+            Premier Antique Black
+        </div>
+        <div class="roof-item" data-type="Premier Buckskin Tan">
+            <img src="img/roofs/BuckskinTan.jpg">
+            Premier Buckskin Tan
+        </div>
+        <div class="roof-item" data-type="Premier Driftwood">
+            <img src="img/roofs/Driftwood.jpg">
+            Premier Driftwood
+        </div>
+        <div class="roof-item" data-type="Premier Harvest Brown">
+            <img src="img/roofs/HarvestBrown.jpg">
+            Premier Harvest Brown
+        </div>
+        <div class="roof-item" data-type="Premier Oakwood">
+            <img src="img/roofs/Oakwood.jpg">
+            Premier Oakwood
+        </div>
+        <div class="roof-item" data-type="Premier Pewter Gray">
+            <img src="img/roofs/PewterGray.jpg">
+            Premier Pewter Gray
+        </div>
+        <div class="roof-item" data-type="Premier Prairie Wood">
+            <img src="img/roofs/PrairieWood.jpg">
+            Premier Prairie Wood
+        </div>
+        <div class="roof-item" data-type="Premier Sherwood Green">
+            <img src="img/roofs/SherwoodGreen.jpg">
+            Premier Sherwood Green
+        </div>
+        <div class="roof-item" data-type="Premier Weathered White">
+            <img src="img/roofs/WeatheredWhite.jpg">
+            Premier Weathered White
+        </div>
+        <div class="roof-item" data-type="Premier Weathered Wood">
+            <img src="img/roofs/WeatheredWood.jpg">
+            Premier Weathered Wood
+        </div>
+    </div>
+    <div class="section metal-roofs hidden">
+        <div class="roof-item" data-type="Galvalume">
+            <img src="img/roofs/galvalume_item.jpg">
+            Galvalume
+        </div>
+        <div class="roof-item metal" data-type="Vintage White" style="background-color: #faf9f8;">
+            <div>Vintage White</div>
+        </div>
+        <div class="roof-item metal" data-type="Rustic Red" style="background-color: #954333;">
+            <div>Rustic Red</div>
+        </div>
+        <div class="roof-item metal" data-type="Gray" style="background-color: #afb1b4;">
+            <div>Gray</div>
+        </div>
+        <div class="roof-item metal" data-type="Evergreen" style="background-color: #0b5e4e;">
+            <div>Evergreen</div>
+        </div>
+        <div class="roof-item metal" data-type="Desert Sand" style="background-color: #b1a998;">
+            <div>Desert Sand</div>
+        </div>
+        <div class="roof-item metal" data-type="Coal Black" style="background-color: #08080b;">
+            <div>Coal Black</div>
+        </div>
+        <div class="roof-item metal" data-type="White" style="background-color: #ffffff;">
+            <div>White</div>
+        </div>
+        <div class="roof-item metal" data-type="Light Stone" style="background-color: #b7b7a4;">
+            <div>Light Stone</div>
+        </div>
+        <div class="roof-item metal" data-type="Beige" style="background-color: #aca389;">
+            <div>Beige</div>
+        </div>
+        <div class="roof-item metal" data-type="Ivory" style="background-color: #ebd9b6;">
+            <div>Ivory</div>
+        </div>
+        <div class="roof-item metal" data-type="Medium Brown" style="background-color: #5b3e33;">
+            <div>Medium Brown</div>
+        </div>
+        <div class="roof-item metal" data-type="Dark Brown" style="background-color: #21201c;">
+            <div>Dark Brown</div>
+        </div>
+        <div class="roof-item metal" data-type="Burgandy" style="background-color: #45262e;">
+            <div>Burgandy</div>
+        </div>
+        <div class="roof-item metal" data-type="All Steel Red" style="background-color: #912d0b;">
+            <div>All Steel Red</div>
+        </div>
+        <div class="roof-item metal" data-type="High Gloss Red" style="background-color: #7e1903;">
+            <div>High Gloss Red</div>
+        </div>
+        <div class="roof-item metal" data-type="Bright Red" style="background-color: #cc0105;">
+            <div>Bright Red</div>
+        </div>
+        <div class="roof-item metal" data-type="Copper Penny" style="background-color: #b97246;">
+            <div>Copper Penny</div>
+        </div>
+        <div class="roof-item metal" data-type="Weathered Copper" style="background-color: #4d493c;">
+            <div>Weathered Copper</div>
+        </div>
+        <div class="roof-item metal" data-type="Forest Green" style="background-color: #003527;">
+            <div>Forest Green</div>
+        </div>
+        <div class="roof-item metal" data-type="Medium Green" style="background-color: #547e5d;">
+            <div>Medium Green</div>
+        </div>
+        <div class="roof-item metal" data-type="Dark Blue" style="background-color: #014566;">
+            <div>Dark Blue</div>
+        </div>
+        <div class="roof-item metal" data-type="All Steel Blue" style="background-color: #486c85;">
+            <div>All Steel Blue</div>
+        </div>
+        <div class="roof-item metal" data-type="Dark Grey" style="background-color: #465153;">
+            <div>Dark Grey</div>
+        </div>
+        <div class="roof-item metal" data-type="Light Grey" style="background-color: #868f8c;">
+            <div>Light Grey</div>
+        </div>
+        <div class="roof-item metal" data-type="Koko Brown" style="background-color: #543e37;">
+            <div>Koko Brown</div>
+        </div>
+        <div class="roof-item metal" data-type="Regal White" style="background-color: #cecdc4;">
+            <div>Regal White</div>
+        </div>
+        <div class="roof-item metal" data-type="Black" style="background-color: #000000;">
+            <div>Black</div>
+        </div>
+        <div class="roof-item metal" data-type="ABC Light Stone" style="background-color: #D4CAAF;">
+            <div>ABC Light Stone</div>
+        </div>
+        <div class="roof-item metal" data-type="Burnished Slate" style="background-color: #433C36;">
+            <div>ABC Burnished Slate</div>
+        </div>
+        <div class="roof-item metal" data-type="ABC Ivy Green" style="background-color: #004837;">
+            <div>ABC Ivy Green</div>
+        </div>
+        <div class="roof-item metal" data-type="ABC Saddle Tan" style="background-color: #B39C7E;">
+            <div>ABC Saddle Tan</div>
+        </div>
+        <div class="roof-item metal" data-type="ABC Charcoal Gray" style="background-color: #535151;">
+            <div>ABC Charcoal Gray</div>
+        </div>
+
+    </div>
+</div>
+</div>
+<div class="views">
+    <div class="render-front"></div>
+    <div class="render-left"></div>
+    <div class="render-back"></div>
+    <div class="render-right"></div>
+    <div class="render-plan"></div>
+    <div class="render-snapshot"></div>
+</div>
+</body>
+</html>
